@@ -1,8 +1,5 @@
 from PIL import Image, ImageFont
-
 from handright import Template, handwrite
-
-
 file_object = open('text.txt', encoding='utf-8', errors='ignore')
 text = file_object.read()
 
